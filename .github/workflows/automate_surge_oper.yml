@@ -42,4 +42,4 @@ jobs:
       
     # deploy surge
     - name: Deploy react app to surge
-      run: surge ./build bootcampC2.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build hashir-bootcampC2.surge.sh --token ${{secrets.SURGE_TOKEN}}
